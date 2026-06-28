@@ -10,7 +10,7 @@ license=('GPL-3.0-only')
 depends=('dbus' 'gcc-libs' 'glibc' 'gnupg')
 makedepends=('cargo')
 provides=('org.freedesktop.secrets')
-conflicts=('org.freedesktop.secrets' 'pass-secret-service-bin' 'pass-secret-service-git')
+conflicts=('pass-secret-service-bin' 'pass-secret-service-git')
 
 _repo_root="$startdir/../.."
 
