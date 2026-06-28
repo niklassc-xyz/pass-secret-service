@@ -27,6 +27,22 @@ cd packaging/arch
 makepkg -si
 ```
 
+### Artix Linux from this checkout
+
+```sh
+yay -Bi packaging/artix
+```
+
+Or with makepkg directly:
+
+```sh
+cd packaging/artix
+makepkg -si
+```
+
+This package installs a plain D-Bus session activation file and does not install
+or depend on a systemd user unit.
+
 ### Building from source
 
 Does not require any additional dependencies to build (uses a pure-rust D-Bus implementation)
