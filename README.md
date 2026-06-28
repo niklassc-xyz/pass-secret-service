@@ -14,6 +14,19 @@ Secrets are stored in GPG files under `~/.password-store/secret-service`. Attrib
 
 There are prebuilt binaries for `x86_64-unknown-linux-gnu` on the Releases page.
 
+### Arch Linux from this checkout
+
+```sh
+yay -Bi packaging/arch
+```
+
+Or with makepkg directly:
+
+```sh
+cd packaging/arch
+makepkg -si
+```
+
 ### Building from source
 
 Does not require any additional dependencies to build (uses a pure-rust D-Bus implementation)
