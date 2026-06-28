@@ -27,7 +27,7 @@ cd packaging/arch
 makepkg -si
 ```
 
-### Artix Linux from this checkout
+### Artix Linux / runit
 
 ```sh
 yay -Bi packaging/artix
@@ -41,7 +41,7 @@ makepkg -si
 ```
 
 This package installs a plain D-Bus session activation file and does not install
-or depend on a systemd user unit.
+or depend on a systemd user unit. The package name is `pass-secret-service-runit`.
 
 ### Building from source
 

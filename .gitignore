@@ -5,3 +5,4 @@
 /packaging/artix/pkg
 /packaging/artix/src
 /packaging/artix/*.pkg.tar.*
+/packaging/artix/pass-secret-service
